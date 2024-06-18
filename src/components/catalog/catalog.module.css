@@ -1,0 +1,30 @@
+.root {
+    height: 100vh;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.selector {
+    width: 30%;
+}
+
+.title {
+    margin: 0 0 5px 0;
+    padding-left: 8px;
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .selector {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
